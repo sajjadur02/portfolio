@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* ============================================
+ Header area
+ ============================================ */
+.ulist{
+    display: flex;
+    
+ }
+.ulist li {
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 25px;
+    margin: 20px 15px;
+    
+    
+   
+ }
+.nav ul li a{
+text-decoration: none;
+color: #F73C56;
+
+}
+.nav img{
+    margin-right: 550px;
+}
+
+.nav{
+    display: inline-flex;
+    background-color: transparent;
+    width: 100%;
+   
+}
+.nav ul li a:hover{
+    color: #1F62AF;
+    text-decoration: underline;
+}
+
+/* ============================================
+ Main area
+ ============================================ */
+
+section.main_area {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 60px;
+    margin-left: 130px;
+}
+.main_text {
+    width: 35%;
+    margin-top: 85px;
+}
+h2{
+    border: 1px solid red;
+    width: 100px;
+    background-color: #F73C56;
+}
+.main_text h1 {
+    font-size: 45px;
+    margin: 5px 0;
+    line-height: 55px;
+}
+.main_text p {
+    font-size: 20px;
+}
+
+.main_img {
+
+    margin-left: 100px;
+    position: relative;
+    margin-top: 85px;
+   
+}
+
+/* ============================================
+ about
+ ============================================ */
+.about img{
+    margin-left: 100px;
+}
+
+.about h1{
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color:#F73C56;
+    width: 300px;
+}
+
+.about-main p{
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+/* ============================================
+ services area
+ ============================================ */
+.services h1{
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color:#F73C56;
+    width: 150px;
+}
+.services ul li {
+    text-align: left ;
+   
+    
+}
+.services ul{
+    list-style-type: circle;
+    font-size: 30px;
+    padding: 100px;
+}
+
+
+/* ============================================
+ footer area
+ ============================================ */
+
+.footer_top {
+    background: #62686D;
+    display: flex;
+    padding: 100px 0;
+    padding-left: 70px;
+    
+}
+.fitem {
+    width: 295px;
+    margin: 0 20px;
+}
+.f-img {
+    margin-bottom: 20px;
+}
+.fitem p {
+    color: wheat;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 25px;
+}
+.fitem h1 {
+    
+    color: black;
+    margin-bottom: 25px;
+}
+.secend-f{
+ margin-left: 500px;
+}
+
+.footer_bottom {
+    text-align: center;
+    background: #000;
+    padding: 30px;
+    border-top: 1px solid #727272;
+}
+.footer_bottom p {
+    color: #727272;
+    font-size: 12px;
+}
+
